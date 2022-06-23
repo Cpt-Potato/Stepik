@@ -17,9 +17,9 @@ def main(n):
     return res
 
 
-print("4", main(4))
-print("5", main(5))
-print("6", main(6))
-print("7", main(7))
-print("8", main(8))
-# print(main(10**9))
+assert sum(main(4)) == 4
+assert sum(main(5)) == 5
+assert sum(main(6)) == 6
+assert sum(main(7)) == 7
+assert sum(main(8)) == 8
+# assert sum(main(10**9))
